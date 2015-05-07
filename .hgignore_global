@@ -1,0 +1,7 @@
+syntax: glob
+
+*~
+.DS_Store
+.idea
+.sass-cache
+nginx.conf

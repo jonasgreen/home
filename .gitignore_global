@@ -1,0 +1,9 @@
+*~
+.DS_Store
+*.iml
+*.bak
+*.class
+*.log
+.idea
+.sass-cache
+nginx.conf
