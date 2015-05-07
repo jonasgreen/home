@@ -7,8 +7,11 @@ export db_password="Asserbo73"
 
 
 
-alias rmds="find . -name *.DS_Store -type f -exec rm {} \;"
-alias wifi="sudo networksetup -setairportnetwork en0 koncern-guest cV58kjcz"
-alias skm-proxy='sudo ~/projects/doc/local-developement-setup/ice-nginx.py > /usr/local/etc/nginx/nginx.conf && nginx -s reload'
 
+alias rmds="find . -name *.DS_Store -type f -exec rm {} \;"
+alias skm-proxy='sudo ~/projects/doc/local-developement-setup/ice-nginx.py > /usr/local/etc/nginx/nginx.conf && nginx -s reload'
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+
+PATH=$PATH:~/bin
+export PATH

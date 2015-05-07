@@ -1,7 +1,3 @@
-export db_username="jg"
-ssh -NL 5432:localhost:5432 jg@178.23.244.42
-skm-proxy
-less nginx.conf
 cd /usr/local/etc/nginx/nginx.conf
 cd /usr/local/etc/nginx/
 less /usr/local/etc/nginx/nginx.conf
@@ -498,3 +494,7 @@ git clone https://github.com/circleci/frontend.git circleci
 cd projects/
 ls
 sublime
+allgit.sh
+evn
+env
+allgit
