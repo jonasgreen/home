@@ -20,3 +20,7 @@ Desktop
 .lein
 known_hosts
 .anyconnect
+.ssh
+.IdeaIC14
+.local
+.oces2
