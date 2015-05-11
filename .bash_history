@@ -1,22 +1,3 @@
-cd /usr/local/etc/nginx/nginx.conf
-cd /usr/local/etc/nginx/
-less /usr/local/etc/nginx/nginx.conf
-export db_username="jg"
-export db_password="Asserbo73"
-ssh -NL 5432:localhost:5432 jg@178.23.244.42
-cd workspace_gui/
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
-rlwrap lein figwheel
 rlwrap lein figwheel
 rlwrap lein figwheel
 rlwrap lein figwheel
@@ -498,3 +479,22 @@ allgit.sh
 evn
 env
 allgit
+cd projects/
+sublime pull-all.sh 
+./pull-all.sh git pull
+./pull-all.sh update
+./pull-all.sh
+cd ..
+cd Dropbox/dotfiles/
+pwd
+cd 
+mkdir
+git init
+git remote add origin https://github.com/jonasgreen/home.git
+cd other\ projects/
+git clone https://github.com/circleci/frontend.git
+cd ..
+ls
+cd projects/
+git checkout master
+ls
