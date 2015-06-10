@@ -24,3 +24,8 @@ known_hosts
 .IdeaIC14
 .local
 .oces2
+other projects
+.hgignore_global
+.bash_history
+.lein_history
+.lesshst
